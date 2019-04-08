@@ -1,0 +1,52 @@
+body{
+margin: 0;
+text-align: center;
+font-family: verdana,sans-serif ;
+font-size: 200%;
+}
+h1{
+  color: 
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size:5.625rem;
+}
+h2{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p{
+  font-family: 'Heebo', sans-serif;
+
+}
+.top-container{
+  background-color: #c5fad9;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container{
+
+
+
+}
+.bottom-container{
+
+
+}
+.pro{
+  text-decoration: underline;
+  visibility: visible;
+}
+.bottom-cloud{
+  position: absolute;
+  left:  300px;
+  bottom: 300px;
+}
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top: 50px;
+}

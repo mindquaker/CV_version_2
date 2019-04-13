@@ -1,54 +1,142 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Ashutosh</title>
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Varela+Round|Yanone+Kaffeesatz" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud"src="images\cloud.png" alt="cloud-img">
-      <h1>I'm Ashutosh.</h1>
-      <h2>a <span class="pro">pro</span>grammer.</h2>
-        <img class="bottom-cloud"src="images\cloud.png" alt="cloud-img">
-        <img src="images\mountain.png" alt="mountain-img">
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img class="profile-img" src="images\profile.jpg " style="height ="300px" width = "300px""alt="">
-        <h2>Hello.</h2>
-        <p class="intro">I am a aspiring programmer and Web Developer. I am open to any kind of ideas and oppertunities. I 🧡India. </p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class=" python" src="https://cnpagencykeycdn-75c5.kxcdn.com/wp-content/uploads/python.sh-600x600.png" alt="python.png" >
-          <h3>Python</h3>
-          <p >I am a decent Python programmer having Advanced skills in python.</p>
-        </div>
-        <div class= "skill-row" >
-          <img class="creativity" src="https://media.giphy.com/media/pylpD8AoQCf3CQ1oO2/giphy.gif"  alt=" creativity.png" >
-          <h3>Creativity</h3>
-          <p >I am a very creative person having a lot of startup ideas. </p>
+body{
+margin: 0;
+text-align: center;
+font-family: verdana,sans-serif ;
+font-size: 200%;
+color: #40514E;
 
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you would to start a startup with me or want to work on some ideas.</h3>
-        <p>If your vision and my skill merge together then we can make it happen.</p>
-        <a class="btn" href="greatashu20@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
+}
+h1{
+  color : #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size:5.625rem;
 
+}
+h2{
+  color : #66BFBF;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p{
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: #40514E;
+  line-height: 2;
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/ashutosh-rana-b09428167/">LinkedIn</a>
-      <a class="footer-link" href="https://www.facebook.com/mindquaker/">Facebook</a>
-      <a class="footer-link" href="https://www.instagram.com/ashutosh_rana20/?hl=en">Instagram</a>
-      <p class="copyright">© 2019 Ashutosh Rana.</p>
-    </div>
+}
+hr{
+
+   border: dotted  #EAF6F6 6px;
+  border-bottom: none;
+   width: 4%;
+   margin: 40px auto 60px ;
+ }
+ a{
+   color: #11999E;
+   font-family: verdana,sans-serif;
+   margin: 10px 20px;
+   text-decoration: none;
+ }
+ a:hover{
+   color: #Eaf6f6;
+ }
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.pro{
+
+}
+.intro{
+margin: auto;
+  width: 30%;
+}
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container{
+
+margin: 100px 0;
+
+}
+.bottom-container{
+background-color: #66BFBF;
+padding: 50px 0 20px;
+
+}
+.pro{
+  text-decoration: underline;
+  visibility: visible;
+}
+.bottom-cloud{
+  position: absolute;
+  left:  250px;
+  bottom: 300px;
+}
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top: 40px;
+}
+.python{
+  width: 25%;
+  float: left;
+  margin-right:  30px;
+}
+.creativity{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.profile-img{
+  border-radius: 50%;
+}
+.contact-me{
+  width: 40%;
+  margin:0px auto
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: verdana,sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copyright{
+  color: #EAf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}

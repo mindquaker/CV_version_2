@@ -103,10 +103,10 @@ padding: 50px 0 20px;
   margin-left: 45px;
 }
   
-.creativity{
+.c{
   width: 25%;
-  float: left;
-  margin-right:  30px;
+  float: right;
+  margin-left: 30px;
 }
 .profile-img{
   border-radius: 50%;
